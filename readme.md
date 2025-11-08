@@ -46,10 +46,14 @@ By the end of this lab, you will be able to:
 ## Reflection Questions
 
 1. How did event.preventDefault() help in handling form submission?
+--  Stop the event from reseting the page
 2. What is the difference between using HTML5 validation attributes and JavaScript-based validation? Why might you use both?
+-- HTML validation gives conditions to input fields that can be checked for validity, where JS Validation give more control to deciding the response to the the validation or lack thereof. 
 3. Explain how you used localStorage to persist and retrieve the username. What are the limitations of localStorage for storing sensitive data?
+-- localStorage persist sessions or refreshes, but as it can only store plan strings has fault points for security.
 4. Describe a challenge you faced in implementing the real-time validation and how you solved it.
 How did you ensure that custom error messages were user-friendly and displayed at the appropriate times?
+-- N/a didn't rreally have a problem, but the check for validation then using spans and .innerHTML to alert the user was what I used.
 
 
 ## Author
